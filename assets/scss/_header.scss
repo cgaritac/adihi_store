@@ -1,0 +1,17 @@
+#primary_header{
+    .container{
+        margin: 0;
+        padding: 0;
+
+        .top{
+            .logo{
+                img{
+                    position: absolute;
+                    max-width: 10%;
+                    height: auto;
+                    
+                }
+            }
+        }
+    }      
+}

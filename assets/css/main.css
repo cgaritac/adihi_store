@@ -52,4 +52,14 @@ body {
 
 * {
   color: #000000;
+}
+
+#primary_header .container {
+  margin: 0;
+  padding: 0;
+}
+#primary_header .container .top .logo img {
+  position: absolute;
+  max-width: 10%;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */
