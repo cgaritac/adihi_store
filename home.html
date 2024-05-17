@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adihi</title>
     <link rel="icon" type="image/png" href="assets\images\favicon.png">
-    <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css" >
+    <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -13,21 +13,37 @@
     <header id="primary_header">
         <div class="container">
             <div class="row top">
-                <div class="col-lg-4 logo">
+                <div class="col-lg-2 logo">
                     <img src="assets\images\logo.png" alt="Logo of Adihi store">
                 </div>
-                <div class="col-lg-8 search">
-                    <img src="assets\images\logo.png" alt="Logo of Adihi store">
-                </div>                
+                <div class="col-lg-8 search"> 
+                    <div class="item">
+                        <input type="text" placeholder="Buscar artículo" id="search_Text">
+                        <i class="las la-search" id="search"></i>    
+                    </div>                                  
+                </div>   
+                <div class="col-lg-2 user">
+                    <i class="las la-user" id="user"></i>
+                </div>                                     
             </div>  
-            <div class="row menu">
-
-            </div>          
+            <nav class="row menu">
+                <ul>
+                    <li><a href="#home"><span>Inicio</span></a></li>
+                    <li><a href="#category"><span>Categorías</span></a></li>
+                    <li><a href="#katanas"><span>Katanas</span></a></li>
+                    <li><a href="#new"><span>Nuevos artículos</span></a></li>
+                    <li><a href="#popular"><span>Lo más popular</span></a></li>
+                    <li><a href="#calendary"><span>Calendario</span></a></li>
+                    <li><a href="#contact"><span>Contacto</span></a></li>
+                    <li><a href="#terms"><span>Términos y condiciones</span></a></li>
+                    <li><!-- <a href="#cart"></a> --></li>
+                </ul>
+            </nav>       
         </div>        
     </header>
     <main>
         <section id="home" class="active">
-
+            
         </section>
         <section id="category">
     
@@ -49,42 +65,25 @@
         </section>
         <section id="terms">
     
-        </section>
+        <!-- </section>
         <section id="cart">
     
-        </section>
+        </section> -->
     </main>    
     <footer id="footer">
-        <nav>
-            <a href="home">
-
-            </a>
-            <a href="category">
-
-            </a>
-            <a href="katanas">
-
-            </a>
-            <a href="new">
-
-            </a>
-            <a href="popular">
-
-            </a>
-            <a href="calendary">
-
-            </a>
-            <a href="contact">
-
-            </a>
-            <a href="terms">
-
-            </a>
-            <a href="cart">
-
-            </a>
-
-        </nav>
+        <nav class="row menu">
+            <ul>
+                <li><a href="#home"><span>Inicio</span></a></li>
+                <li><a href="#category"><span>Categorías</span></a></li>
+                <li><a href="#katanas"><span>Katanas</span></a></li>
+                <li><a href="#new"><span>Nuevos artículos</span></a></li>
+                <li><a href="#popular"><span>Lo más popular</span></a></li>
+                <li><a href="#calendary"><span>Calendario</span></a></li>
+                <li><a href="#contact"><span>Contacto</span></a></li>
+                <li><a href="#terms"><span>Términos y condiciones</span></a></li>
+                <li><!-- <a href="#cart"></a> --></li>
+            </ul>
+        </nav>  
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Shuffle/6.1.0/shuffle.min.js" integrity="sha512-r8mIpk3ypCMwNxH6srRZGbjHQlOFt3Mq2vrZ/iymx6g9JUqTeVavofeX6gbrxAC74X5HmBy5gxyhCm6OiXrM0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

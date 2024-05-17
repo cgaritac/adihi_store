@@ -46,7 +46,7 @@ p {
 }
 
 body {
-  background: #ff0000;
+  background: #ffffff;
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -57,9 +57,108 @@ body {
 #primary_header .container {
   margin: 0;
   padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+#primary_header .container .top {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  min-height: 150px;
+  align-items: center;
+}
+#primary_header .container .top .logo {
+  position: relative;
 }
 #primary_header .container .top .logo img {
-  position: absolute;
-  max-width: 10%;
+  position: relative;
+  left: 25%;
+  max-width: 40%;
   height: auto;
+}
+#primary_header .container .top .search {
+  position: relative;
+}
+#primary_header .container .top .search .item {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+#primary_header .container .top .search .item:hover input {
+  width: 350px;
+}
+#primary_header .container .top .search .item:hover i {
+  transform: rotate(-360deg);
+}
+#primary_header .container .top .search .item input {
+  outline: none;
+  box-sizing: border-box;
+  height: 40px;
+  width: 0;
+  padding: 0 20px;
+  color: #000000;
+  border-radius: 50px;
+  font-size: 20px;
+  border: 1px solid #ff0000;
+  transition: all 0.8s ease;
+}
+#primary_header .container .top .search .item input ::-moz-placeholder {
+  color: grey;
+}
+#primary_header .container .top .search .item input ::placeholder {
+  color: grey;
+}
+#primary_header .container .top .search .item i {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60px;
+  height: 60px;
+  background: #ff0000;
+  line-height: 60px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.8s;
+  font-size: 20px;
+  color: white;
+}
+#primary_header .container .top .user {
+  position: relative;
+}
+#primary_header .container .top .user i {
+  position: relative;
+  left: 0;
+  width: 60px;
+  background: #ff0000;
+  line-height: 60px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.8s;
+  font-size: 20px;
+  color: white;
+}
+#primary_header .container .menu {
+  background: #ff0000;
+}
+#primary_header .container .menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+#primary_header .container .menu ul li {
+  margin: 0 10px;
+}
+#primary_header .container .menu ul li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+#primary_header .container .menu ul li a span {
+  color: white;
+  font-size: 18px;
 }/*# sourceMappingURL=main.css.map */
