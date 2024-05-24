@@ -21,18 +21,18 @@ h1, h2, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 90px;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
 }
 
 h3 {
   font-family: "Ubuntu", sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 400;
 }
 
@@ -46,12 +46,42 @@ p {
 }
 
 body {
-  background: #ffffff;
+  background: #bbb1b1;
   font-family: "Ubuntu", sans-serif;
 }
 
 * {
   color: #000000;
+}
+
+main section {
+  display: none;
+}
+main section:not(#home) {
+  padding-top: 64px;
+}
+main section.active {
+  display: block;
+}
+
+#home .container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+#home .container .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://fakeimg.pl/1980x500/d9a1a1/9e8e8e");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+#home .container .content {
+  height: 100px;
 }
 
 #primary_header .container {
@@ -63,7 +93,7 @@ body {
 #primary_header .container .top {
   display: flex;
   justify-content: space-between;
-  background: black;
+  background: #000000;
   min-height: 150px;
   align-items: center;
 }
@@ -153,6 +183,9 @@ body {
 #primary_header .container .menu ul li {
   margin: 0 10px;
 }
+#primary_header .container .menu ul li:hover a i, #primary_header .container .menu ul li:hover a span {
+  color: #000000;
+}
 #primary_header .container .menu ul li a {
   text-decoration: none;
   padding: 10px 15px;
@@ -160,5 +193,254 @@ body {
 }
 #primary_header .container .menu ul li a span {
   color: white;
-  font-size: 18px;
+  font-size: 22px;
+}
+
+#calendary .container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+#calendary .container .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://fakeimg.pl/1980x500/d9a1a1/9e8e8e");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+#calendary .container .content {
+  height: 100px;
+}
+
+#category .container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+#category .container .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://fakeimg.pl/1980x500/d9a1a1/9e8e8e");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+#category .container .content {
+  height: 100px;
+}
+
+#contact .container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+#contact .container .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://fakeimg.pl/1980x500/d9a1a1/9e8e8e");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+#contact .container .content {
+  height: 100px;
+}
+
+#katanas .container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+#katanas .container .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://fakeimg.pl/1980x500/d9a1a1/9e8e8e");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+#katanas .container .content {
+  height: 100px;
+}
+
+#new .container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+#new .container .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://fakeimg.pl/1980x500/d9a1a1/9e8e8e");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+#new .container .content {
+  height: 100px;
+}
+
+#popular .container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+#popular .container .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://fakeimg.pl/1980x500/d9a1a1/9e8e8e");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+#popular .container .content {
+  height: 100px;
+}
+
+#terms .container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+#terms .container .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://fakeimg.pl/1980x500/d9a1a1/9e8e8e");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+#terms .container .content {
+  height: 100px;
+}
+
+#footer .container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+#footer .container .menu {
+  background: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 100vh;
+}
+#footer .container .menu .socials_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#footer .container .menu .socials_wrap .socials {
+  text-align: center;
+}
+#footer .container .menu .socials_wrap .socials h3 {
+  font-weight: bold;
+  color: white;
+  padding-bottom: 20px;
+}
+#footer .container .menu .socials_wrap .socials ul {
+  display: flex;
+  justify-content: center;
+}
+#footer .container .menu .socials_wrap .socials ul li:hover a i, #footer .container .menu .socials_wrap .socials ul li:hover a span {
+  color: #ff0000;
+}
+#footer .container .menu .socials_wrap .socials ul li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+#footer .container .menu .socials_wrap .socials ul li a i, #footer .container .menu .socials_wrap .socials ul li a span {
+  color: white;
+}
+#footer .container .menu .links_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer .container .menu .links_wrap .links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#footer .container .menu .links_wrap .links h3 {
+  font-weight: bold;
+  color: white;
+  padding-bottom: 20px;
+}
+#footer .container .menu .links_wrap .links ul li {
+  padding-bottom: 10px;
+}
+#footer .container .menu .links_wrap .links ul li:hover a span {
+  color: #ff0000;
+}
+#footer .container .menu .links_wrap .links ul li a {
+  text-decoration: none;
+}
+#footer .container .menu .links_wrap .links ul li a span {
+  color: white;
+}
+#footer .container .menu .other_links_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer .container .menu .other_links_wrap .other_links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#footer .container .menu .other_links_wrap .other_links h3 {
+  font-weight: bold;
+  color: white;
+  padding-bottom: 20px;
+}
+#footer .container .menu .other_links_wrap .other_links:hover a span {
+  color: #ff0000;
+}
+#footer .container .menu .other_links_wrap .other_links a {
+  text-decoration: none;
+}
+#footer .container .menu .other_links_wrap .other_links a span {
+  color: white;
+}
+#footer .container .rights {
+  display: flex;
+  justify-content: center;
+  background: #fa0707;
+}
+#footer .container .rights span {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: white;
 }/*# sourceMappingURL=main.css.map */

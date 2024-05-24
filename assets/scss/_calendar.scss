@@ -1,0 +1,26 @@
+#calendary{
+    .container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+
+        .hero{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-image: url('https://fakeimg.pl/1980x500/d9a1a1/9e8e8e');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 350px;
+
+
+        }
+    
+        .content{
+            height: 100px;
+        }
+    }   
+}

@@ -8,7 +8,7 @@
         .top{
             display: flex;
             justify-content: space-between;
-            background: black;
+            background: $tertiary;
             min-height: 150px;
             align-items: center;
 
@@ -112,6 +112,14 @@
                 li{
                     margin: 0 10px;
 
+                    &:hover{
+                        a{
+                             i, span{
+                                 color: $tertiary
+                             }
+                         }
+                     }
+
                     a{
                         text-decoration: none;
                         padding: 10px 15px; 
@@ -119,7 +127,7 @@
 
                         span{
                             color: white;
-                            font-size: 18px;
+                            font-size: 22px;
                         }        
                     }
                 }                

@@ -3,18 +3,18 @@ h1, h2, h4, h5, h6 {
 }
 
 h1{
-    font-size: 48px;
+    font-size: 90px;
     font-weight: 700;
 }
 
 h2{
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 700;
 }
 
 h3{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -28,7 +28,7 @@ p{
 }
 
 body{
-    background: $primary;
+    background: $primary_bg;
     font-family: 'Ubuntu', sans-serif;
 }
 

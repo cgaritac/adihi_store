@@ -1,0 +1,13 @@
+main{
+    section{
+        display: none;
+        
+        &:not(#home){
+            padding-top: 64px;
+        }
+
+        &.active{
+            display: block;
+        }
+    }
+}

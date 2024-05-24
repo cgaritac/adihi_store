@@ -1,0 +1,149 @@
+#footer{
+
+    .container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+
+        .menu{
+            background: $tertiary;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            height: 100vh;
+
+            .socials_wrap{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .socials{
+                    text-align: center;
+                    
+                    h3{
+                        font-weight: bold;
+                        color: white;
+                        padding-bottom: 20px;
+                    }
+    
+                    ul{                    
+                        display: flex;
+                        justify-content: center;    
+                        
+                        li{   
+                            &:hover{
+                               a{
+                                    i, span{
+                                        color: $secondary;
+                                    }
+                                }
+                            }
+    
+                            a{
+                                text-decoration: none;
+                                padding: 10px 15px; 
+                                display: block;                             
+                                
+                                i, span{
+                                    color: white;
+                                }
+                            }
+                        }                
+                    }                 
+                }
+            }
+
+            .links_wrap{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center; //XXXX
+
+                .links{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    width: fit-content;      
+                    
+                    h3{
+                        font-weight: bold;
+                        color: white;
+                        padding-bottom: 20px;
+                    }
+    
+                    ul{                        
+                        li{
+                            padding-bottom: 10px;     
+                            
+                            &:hover{
+                                a{
+                                     span{
+                                         color: $secondary;
+                                     }
+                                 }
+                             }
+        
+                            a{
+                                text-decoration: none;
+            
+                                span{
+                                    color: white;
+                                }
+                            }
+                        }
+                    }                
+                }
+            }
+
+            .other_links_wrap{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .other_links{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    width: fit-content;
+                    
+                    h3{
+                        font-weight: bold;
+                        color: white;
+                        padding-bottom: 20px;
+                    }
+    
+                    &:hover{
+                        a{
+                             span{
+                                 color: $secondary;
+                             }
+                         }
+                     }
+    
+                    a{
+                        text-decoration: none;
+    
+                        span{
+                            color: white;
+                        }
+                    }
+                }
+            }            
+        }
+
+        .rights{
+            display: flex;
+            justify-content: center;            
+            background: $icon;
+
+            span{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: 16px;
+                color: white;
+                
+            }
+        }
+    }
+}
